@@ -1,1 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>How old is this Loblolly Pine Tree?</title>
+  <meta charset="utf-8">
+  <meta name="description" content="How old is this Loblolly Pine Tree?">
+  <meta name="author" content="Presented by Jeni Squiric">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
 
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>How old is this Loblolly Pine Tree?</h1>
+    <h2></h2>
+    <p>Presented by Jeni Squiric<br/>Naturalist, U.S. Forest Service</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <article data-timings="">
+    <p><BR>
+<BR></p>
+
+<h2>Overview</h2>
+
+<hr noshade size=4 color='blue'>  
+
+<p><BR>
+<b>This presentation will cover:</b></p>
+
+<ol>
+<li>What are Loblolly Pine Trees? <hr></li>
+<li>Purpose of this Analysis<hr></li>
+<li>Methods used in Analysis<hr></li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>What are Loblolly Pine Trees?</h2>
+  </hgroup>
+  <article data-timings="">
+    <hr noshade size=4 color='blue'> 
+
+<p><BR></p>
+
+<style type="text/css">
+#wrap {
+   width:800px;
+   margin:0 auto;
+}
+#left_col {
+   float:left;
+   width:450px;
+   padding-right: 50px;
+}
+#right_col {
+   float:right;
+   width:300px;
+}
+</style>
+
+<div id="wrap">
+    <div id="left_col">     
+<p>According to the U.S. Forest Service, pinus taeda, commonly known as loblolly pine, is one of several pines native to the Southeastern United States, from central Texas east to Florida, and north to Delaware and southern New Jersey. </p>
+<p>
+Its needles are in bundles of three, sometimes twisted, and measure 12–22 cm 
+(4.7–8.7 in) long.
+</p>
+    </div>
+    
+<div id="right_col">  
+<IMG SRC="loblolly.jpg" ALT="some text" WIDTH=300 HEIGHT=400>
+</IMG>
+    </div>
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Purpose of this Analysis</h2>
+  </hgroup>
+  <article data-timings="">
+    <hr noshade size=4 color='blue'>  
+
+<p><BR></p>
+
+<p>Many naturalists, when strolling through a forest, question how old the trees are.</p> 
+
+<p>One technique to determine the age of a tree would be to cut down the tree and count the rings in the trunk. This method would ruin the tree.</p>
+
+<p><b>What other method could we use without ruining the tree?</b></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Another method to use</h2>
+  </hgroup>
+  <article data-timings="">
+    <hr noshade size=4 color='blue'>  
+
+<p><b><h4>Predict the age of the tree by using its height in a logistic regression model.</b></h4></p>
+
+<p>Initial data was taken from Loblolly data in the datasets package in R.</p>
+
+<p>By using the existing heights of the trees in this dataset, the following logistic prediction results/formula was calculated to predict the age of another Loblolly tree.</p>
+
+<p><center><b>Predicted Age =  .7574 + .3783*height of tree</b></center></p>
+
+<hr noshade size=4 color='red'> 
+
+<p><b><h4>Now, let&#39;s use the application to predict the age of the tree:</b></h4></p>
+
+<ul>
+<li>Take a walk through the forest and pick a Loblolly tree, what is it's height?</li>
+<li>Enter the height of this tree in the application and hit <b>Submit</b></li>
+<li>The predicted age will be calculated.</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='NA'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='What are Loblolly Pine Trees?'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Purpose of this Analysis'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Another method to use'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>

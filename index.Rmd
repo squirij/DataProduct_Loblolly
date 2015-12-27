@@ -1,0 +1,99 @@
+---
+title       : How old is this Loblolly Pine Tree?
+subtitle    : 
+author      : Presented by Jeni Squiric
+job         : Naturalist, U.S. Forest Service
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+
+---
+<BR>
+<BR>
+## Overview
+<hr noshade size=4 color='blue'>  
+<BR>
+<b>This presentation will cover:</b>
+
+1. What are Loblolly Pine Trees? <hr>
+2. Purpose of this Analysis<hr>
+3. Methods used in Analysis<hr>
+
+--- .class #id 
+
+## What are Loblolly Pine Trees?
+<hr noshade size=4 color='blue'> 
+<BR>
+<style type="text/css">
+#wrap {
+   width:800px;
+   margin:0 auto;
+}
+#left_col {
+   float:left;
+   width:450px;
+   padding-right: 50px;
+}
+#right_col {
+   float:right;
+   width:300px;
+}
+</style>
+
+<div id="wrap">
+    <div id="left_col">     
+<p>According to the U.S. Forest Service, pinus taeda, commonly known as loblolly pine, is one of several pines native to the Southeastern United States, from central Texas east to Florida, and north to Delaware and southern New Jersey. </p>
+<p>
+Its needles are in bundles of three, sometimes twisted, and measure 12–22 cm 
+(4.7–8.7 in) long.
+</p>
+    </div>
+    
+<div id="right_col">  
+<IMG SRC="loblolly.jpg" ALT="some text" WIDTH=300 HEIGHT=400>
+</IMG>
+    </div>
+</div>
+
+---- .class #id 
+
+## Purpose of this Analysis
+<hr noshade size=4 color='blue'>  
+<BR>
+<p>Many naturalists, when strolling through a forest, question how old the trees are.</p> 
+
+<p>One technique to determine the age of a tree would be to cut down the tree and count the rings in the trunk. This method would ruin the tree.</p>
+
+<p><b>What other method could we use without ruining the tree?</b></p>
+
+
+--- .class #id 
+
+## Another method to use
+<hr noshade size=4 color='blue'>  
+
+<b><h4>Predict the age of the tree by using its height in a logistic regression model.</b></h4>
+
+Initial data was taken from Loblolly data in the datasets package in R.
+
+By using the existing heights of the trees in this dataset, the following logistic prediction results/formula was calculated to predict the age of another Loblolly tree.
+
+<center><b>Predicted Age =  .7574 + .3783*height of tree</b></center>
+<hr noshade size=4 color='red'> 
+<b><h4>Now, let's use the application to predict the age of the tree:</b></h4>
+
+<ul>
+<li>Take a walk through the forest and pick a Loblolly tree, what is it's height?</li>
+<li>Enter the height of this tree in the application and hit <b>Submit</b></li>
+<li>The predicted age will be calculated.</li>
+</ul>
+
+
+
+
+
+
+
