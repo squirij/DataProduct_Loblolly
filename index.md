@@ -11,8 +11,7 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 
 ---
-<BR>
-<BR>
+
 ## Overview
 <hr noshade size=4 color='blue'>  
 <BR>
@@ -30,7 +29,7 @@ knit        : slidify::knit2slides
 <style type="text/css">
 #wrap {
    width:800px;
-   margin:0 auto;
+   margin:0 0 0 0;
 }
 #left_col {
    float:left;
@@ -75,25 +74,25 @@ Its needles are in bundles of three, sometimes twisted, and measure 12–22 cm
 ## Another method to use
 <hr noshade size=4 color='blue'>  
 
-<b><h4>Predict the age of the tree by using its height in a logistic regression model.</b></h4>
+<b><font size=5>Predict the age of the tree by using its height in a logistic regression model.</font></b>
 
-Initial data was taken from Loblolly data in the datasets package in R.
-
-By using the existing heights of the trees in this dataset, the following logistic prediction results/formula was calculated to predict the age of another Loblolly tree.
-
-<center><b>Predicted Age =  .7574 + .3783*height of tree</b></center>
-<hr noshade size=4 color='red'> 
-<b><h4>Now, let's use the application to predict the age of the tree:</b></h4>
-
+<div id="wrap">
+    <div id="left_col">  
+<font size=4>Initial data was taken from Loblolly data in the datasets package in R.
+By using the existing heights of the trees in this dataset, the following logistic prediction results/formula was calculated to predict the age of another Loblolly tree.</h4><hr>
+<h4><b>Predicted Age =  .7574 + .3783*height of tree</b> </font> 
+<hr noshade size=4 color='red'>  
+<font size=4><b>Here are the steps to run the application:</b></font>
 <ul>
-<li>Take a walk through the forest and pick a Loblolly tree, what is it's height?</li>
-<li>Enter the height of this tree in the application and hit <b>Submit</b></li>
-<li>The predicted age will be calculated.</li>
+<li><font size=4>Take a walk through the forest and pick a Loblolly tree, what is it's height?</font></li>
+<li><font size=4>Enter the height of this tree in the application and hit <b>Submit</b></font></li>
+<li><font size=4>The predicted age will be calculated.</font></li>
 </ul>
+ </div>
+    
+<div id="right_col">  
 
+<img src="assets/fig/simple-plot-1.png" title="plot of chunk simple-plot" alt="plot of chunk simple-plot" style="display: block; margin: auto auto auto 0;" />
 
-
-
-
-
-
+</div>
+</div>
